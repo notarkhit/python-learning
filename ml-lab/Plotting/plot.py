@@ -10,11 +10,8 @@ with open('iris.csv','r') as heartDisease_csv:
         x.append(row[4])
         y.append(row[3])
 
-plt.(x,y)
+plt.plot(x,y)
 plt.xlabel('x')
 plt.ylabel('y')
 plt.show()
-
-
-
 
