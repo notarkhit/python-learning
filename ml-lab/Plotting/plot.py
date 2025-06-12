@@ -10,7 +10,7 @@ with open('iris.csv','r') as heartDisease_csv:
         x.append(row[4])
         y.append(row[3])
 
-plt.plot(x,y)
+plt.hist2d(x,y)
 plt.xlabel('x')
 plt.ylabel('y')
 plt.show()
